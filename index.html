@@ -1,0 +1,799 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpe FCU - OldNevile</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="assets/css/arafat-font.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- start preloader 
+    <div class="preloader" id="preloader"></div>
+    end preloader -->
+
+    
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/">
+                            <img src="assets/images/logo.png" width="180px" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-content">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Everday Banking</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="checking.html">Checking</a></li>
+                                        
+                                        <li><a class="nav-link" href="checking.html">Savings</a></li>
+                                        <li><a class="nav-link" href="checking.html">Certificate of Deposit</a></li>
+                                        <li><a class="nav-link" href="checking.html">Money Market Account</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link" href="loans.html">Loans Center</a>
+                                    
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link" href="checking.html">Credit Cards</a>
+                                    
+                                </li>
+                                <li class="nav-item dropdown main-navbar">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Help Center</a>
+                                    <ul class="dropdown-menu main-menu shadow">
+                                        <li><a class="nav-link" href="checking.html">Contact</a></li>
+                                        <li><a class="nav-link" href="checking.html">Live Chat support</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="right-area header-action d-flex align-items-center max-un">
+                                
+                                <a href="openaccount.html" class="cmn-btn">Online Banking
+                                    <i class="icon-d-right-arrow-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Banner Section start -->
+    <section class="banner-section index">
+        <div class="overlay">
+            <div class="shape-area">
+                <img src="assets/images/banner-box.png" class="obj-1" alt="image">
+                <img src="assets/images/banner-human.png" class="obj-2" alt="image">
+                <img src="assets/images/banner-rocket.png" class="obj-3" alt="image">
+                <img src="assets/images/banner-clock.png" class="obj-4" alt="image">
+            </div>
+            <div class="banner-content">
+                <div class="container wow fadeInUp">
+                    <div class="content-shape">
+                        <img src="assets/images/banner-wallet.png" class="obj-1" alt="image">
+                    </div>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="main-content">
+                                <div class="top-area section-text">
+                                    <h5 class="sub-title">Trusted by over 3M customers</h5>
+                                    <h1 class="title">Services That Make Life Worthwhile</h1>
+                                    <p class="xlr">We think life should be sweet, so we’ve built world class
+products and services to make life easier</p>
+                                </div>
+                                <div class="bottom-area d-xxl-flex">
+                                    <a href="openaccount.html" class="cmn-btn">Open an Account</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-5 col-md-6">
+                            <div class="send-money">
+                               <div class="currency-area">
+                                        <div class="left-side">
+                                            
+                                            <h5>Welcome</h5>
+                                        </div>
+                                       
+                                    </div>
+                                    <form action="#" method="post">
+                            <div class="row">
+                                
+                                <div class="calculation">
+                                    <div class="" align ="center">&nbsp;</div>
+                                    <div class="single-input">
+                                        <label for="logemail">Account Number</label>
+                                        <input type="text" maxlength="10" name="accno" placeholder="Account ID">
+                                    </div>
+                                    <div class="single-input">
+                                        <label for="logpassword">Account Password</label>
+                                        <input type="password" id="pass" placeholder="Password" name="pass" value="">
+                                        
+                                        <br><br>
+								      <div class="checkbox">
+								      <label><input type="checkbox" onclick="myFunctionz()"> Show Password </label></div>
+                                    </div>
+                                    </div style="currency-area">
+                                    <button class="cmn-btn w-100" type="submit"  value="Submit">Sign In</button><hr>
+                                <p class="dont-acc">Don’t have an account? <a href="openaccount.html">Enroll Now</a></p>
+                            </div></form></div>
+                        
+                                    
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="counter-section">
+            <div class="container wow fadeInUp">
+                <div class="row cus-mar">
+                    <div class="col-xl-3 col-md-3 col-sm-6">
+                        <div class="single-area d-flex align-items-center justify-content-center">
+                            <div class="text-area text-center">
+                                <h4>Bank Accounts</h4>
+                                <p>Discover the benefits of a bank account from Carpe FCU</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3 col-sm-6">
+                        <div class="single-area d-flex align-items-center justify-content-center">
+                            <div class="text-area text-center">
+                                <h4>Mortgages</h4>
+                                <p>Find one that’s right for your needs and circumstances.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3 col-sm-6">
+                        <div class="single-area d-flex align-items-center justify-content-center">
+                            <div class="text-area text-center">
+                                <h4>Travel Money</h4>
+                                <p>Check rates and order online now.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3 col-sm-6">
+                        <div class="single-area d-flex align-items-center justify-content-center">
+                            <div class="text-area text-center">
+                                <h4>Savings</h4>
+                                <p>See how we could help your money work harder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section end -->
+
+    <!-- Global Payment start -->
+    <section class="global-payment">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Send money in a heartbeat</h5>
+                            <h2 class="title">The World At Your Fingertips</h2>
+                            <p>Available exclusively for existing Carpe FCU customers, this card brings you a world of travel benefits, a rewards programme and access to Carpe FCU Privileges. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-5 order-xl-0 order-1">
+                        <div class="image-area d-rtl left-side">
+                            <img src="assets/images/global-payment-img.png" alt="images" class="max-un">
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-7">
+                        <div class="row cus-mar">
+                            <div class="col-sm-6 col-6">
+                                <div class="single-item">
+                                    <img src="assets/images/global-payment-icon-1.png" alt="icon">
+                                    <h5>Personal Card</h5>
+                                    <p>Find your perfect Card for everyday spend
+</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-6">
+                                <div class="single-item">
+                                    <img src="assets/images/global-payment-icon-2.png" alt="icon">
+                                    <h5>Business Card</h5>
+                                    <p>Explore solutions designed to back your business</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-6">
+                                <div class="single-item">
+                                    <img src="assets/images/global-payment-icon-3.png" alt="icon">
+                                    <h5>Corporate</h5>
+                                    <p>Corporate solutions to help control expenses and drive savings</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-6">
+                                <div class="single-item">
+                                    <img src="assets/images/global-payment-icon-4.png" alt="icon">
+                                    <h5>International Network</h5>
+                                    <p>You can use your Carpe FCU Credit Card at any international retailer or cash machine.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Global Payment end -->
+
+    <!-- Our Solutions start -->
+    <section class="our-solutions">
+        <div class="overlay pt-120 pb-120">
+            <div class="container wow fadeInUp">
+                <!--<div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header dark-sec text-center">
+                            <h5 class="sub-title">High speeds. Low fees. No hassle.</h5>
+                            <h2 class="title">All Your Payments In One Place</h2>
+                            <p>Get used to low fees and great exchange rates on international money transfers.Expand your business worldwide</p>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="row cus-mar">
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/digital-banking.jpg" height="100px" alt="icon">
+                            <h5>Bank on the Go</h5>
+                            <p> Open an account to enjoy every banking service on Carpe FCU</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/fit.jpg" alt="icon">
+                            <h5>Check Financial Fitness</h5>
+                            <p>Generate your own financial fitness score and get tips on how to grow your money.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/HP417_M.jpg" alt="icon">
+                            <h5>Simplify Your Savings</h5>
+                            <p> Easy to access and simple to manage, a Carpe FCU Savings Account could be right for you. </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/blog-7.jpg" alt="icon">
+                            <h5>Help Guides</h5>
+                            <p>A range of guides and articles from understanding APRs to saving tips. </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- Second Part -->
+                
+                <div class="row cus-mar">
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/blog-6.jpg" height="100px" alt="icon">
+                            <h5>Security centre</h5>
+                            <p>  Handy tips designed to help you stay safe online.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/blog-5.jpg" alt="icon">
+                            <h5>Card support</h5>
+                            <p> Activate, lost or stolen, and general card support </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/blog-9.jpg" alt="icon">
+                            <h5>Voice ID</h5>
+                            <p>  Make your voice your password for telephone banking  </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-6">
+                        <div class="single-item">
+                            <img src="assets/images/bl-840.jpg" alt="icon">
+                            <h5>Secure Key</h5>
+                            <p> Handy demos to help you activate, reset and use your Secure Key</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- End Second part -->
+            </div>
+        </div>
+    </section>
+    <!-- Our Solutions end -->
+
+    <!-- How it Works start 
+    <section class="how-it-works">
+        <div class="overlay pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">How it works?</h5>
+                            <h2 class="title">Just few steps to start</h2>
+                            <p>It's easier than you think. Follow 3 simple easy steps</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cus-mar">
+                    <div class="col-xl-3 col-sm-6 col-6">
+                        <div class="single-item first text-center">
+                            <img src="assets/images/icon/how-works-icon-1.png" alt="icon">
+                            <h5>Register for free</h5>
+                            <p>Simply sign up online for free and verify your identity</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6">
+                        <div class="single-item second text-center">
+                            <img src="assets/images/icon/how-works-icon-2.png" alt="icon">
+                            <h5>Set up your transfer</h5>
+                            <p>Add a recipient's details and choose which currency ...</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6">
+                        <div class="single-item first text-center">
+                            <img src="assets/images/icon/how-works-icon-3.png" alt="icon">
+                            <h5>Make your payment</h5>
+                            <p>Send us your funds with a bank transfer and we'll notify..</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6">
+                        <div class="single-item text-center">
+                            <img src="assets/images/icon/how-works-icon-4.png" alt="icon">
+                            <h5>You're all done!</h5>
+                            <p>We inform you when the money has been sent and can also ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     How it Works end -->
+
+    <!-- App Download start -->
+    <section class="app-download">
+        <div class="overlay pb-120">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 order-lg-0 order-1">
+                        <div class="image-area d-rtl left-side">
+                            <img src="assets/images/customer.jpg" alt="images" class="max-un">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="section-area">
+                            <h5 class="sub-title">YOUR SAVINGS MADE SIMPLE</h5>
+                            <h2 class="title">Choose the Right Bank Account</h2>
+                            <p>Below is a list of the main types of accounts you can open at a bank.</p>
+                        </div>
+                        <ul class="features">
+                            <li>
+                                <img src="assets/images/check.png" alt="icon">
+                                Savings Account
+                            </li>
+                            <li>
+                                <img src="assets/images/check.png" alt="icon">
+                                Checking Account
+                            </li>
+                            <li>
+                                <img src="assets/images/check.png" alt="icon">
+                                Certificate of Deposit
+                            </li>
+                            <li>
+                                <img src="assets/images/check.png" alt="icon">
+                                Money Market Account
+                            </li>
+                        </ul>
+                        <!--<div class="brand-area mt-40">
+                            <a href="javascript:void(0)">
+                                <img src="assets/images/GooglePlay-btn.png" alt="icon">
+                            </a>
+                            <a href="javascript:void(0)">
+                                <img src="assets/images/apple-btn.png" alt="icon">
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App Download end -->
+
+    <!-- Testimonials start 
+    <section class="testimonials">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Testimonials</h5>
+                            <h2 class="title">What Our Customers Say</h2>
+                            <p>245m+ happy clients all around the world. Don’t just take our word for it</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid wow fadeInUp">
+                <div class="testimonials-carousel">
+                    <div class="single-slide">
+                        <div class="single-content">
+                            <div class="start-area">
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                            </div>
+                            <h5 class="title-area">Great Fast Reliable Service</h5>
+                            <p class="xlr">"Paylio has always been a reliable solution for my business. I am very satisfied with their speedy service and professional customer care. I highly recommend Paylio to businesses with regular overseas payments."</p>
+                            <div class="profile-area d-flex align-items-center">
+                                <div class="icon-area">
+                                    <img src="assets/images/testimonials-img-1.png" alt="icon">
+                                </div>
+                                <div class="text-area">
+                                    <h5>Aspen Press</h5>
+                                    <p>Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-content">
+                            <div class="start-area">
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                            </div>
+                            <h5 class="title-area">Great Fast Reliable Service</h5>
+                            <p class="xlr">"Paylio has always been a reliable solution for my business. I am very satisfied with their speedy service and professional customer care. I highly recommend Paylio to businesses with regular overseas payments."</p>
+                            <div class="profile-area d-flex align-items-center">
+                                <div class="icon-area">
+                                    <img src="assets/images/testimonials-img-2.png" alt="icon">
+                                </div>
+                                <div class="text-area">
+                                    <h5>Courtney Henry</h5>
+                                    <p>Balance Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-content">
+                            <div class="start-area">
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                            </div>
+                            <h5 class="title-area">Great Fast Reliable Service</h5>
+                            <p class="xlr">"Paylio has always been a reliable solution for my business. I am very satisfied with their speedy service and professional customer care. I highly recommend Paylio to businesses with regular overseas payments."</p>
+                            <div class="profile-area d-flex align-items-center">
+                                <div class="icon-area">
+                                    <img src="assets/images/testimonials-img-3.png" alt="icon">
+                                </div>
+                                <div class="text-area">
+                                    <h5>Paul Howell</h5>
+                                    <p>President of Sales</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-content">
+                            <div class="start-area">
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                            </div>
+                            <h5 class="title-area">Great Fast Reliable Service</h5>
+                            <p class="xlr">"Paylio has always been a reliable solution for my business. I am very satisfied with their speedy service and professional customer care. I highly recommend Paylio to businesses with regular overseas payments."</p>
+                            <div class="profile-area d-flex align-items-center">
+                                <div class="icon-area">
+                                    <img src="assets/images/testimonials-img-2.png" alt="icon">
+                                </div>
+                                <div class="text-area">
+                                    <h5>Courtney Henry</h5>
+                                    <p>Balance Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     App Download end -->
+
+    <!-- FAQs In start 
+    <section class="faqs-section">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-header text-center">
+                            <h5 class="sub-title">Frequently Asked Questions</h5>
+                            <h2 class="title">If you got questions we have answer</h2>
+                            <p>We have a list of frequently asked questions about us</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cus-mar">
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionLeft">
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingLeftOne">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseLeftOne"
+                                        aria-expanded="false" aria-controls="collapseLeftOne">
+                                        How to send money online?
+                                    </button>
+                                </h6>
+                                <div id="collapseLeftOne" class="accordion-collapse collapse"
+                                    aria-labelledby="headingLeftOne" data-bs-parent="#accordionLeft">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingLeftTwo">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseLeftTwo"
+                                        aria-expanded="false" aria-controls="collapseLeftTwo">
+                                        How much are money transfer fees?
+                                    </button>
+                                </h6>
+                                <div id="collapseLeftTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="headingLeftTwo" data-bs-parent="#accordionLeft">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingLeftThree">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseLeftThree"
+                                        aria-expanded="false" aria-controls="collapseLeftThree">
+                                        What is the fastest way to send money abroad?
+                                    </button>
+                                </h6>
+                                <div id="collapseLeftThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingLeftThree" data-bs-parent="#accordionLeft">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingLeftFour">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseLeftFour"
+                                        aria-expanded="false" aria-controls="collapseLeftFour">
+                                        How to use Paylio?
+                                    </button>
+                                </h6>
+                                <div id="collapseLeftFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingLeftFour" data-bs-parent="#accordionLeft">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingLeftFive">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseLeftFive"
+                                        aria-expanded="false" aria-controls="collapseLeftFive">
+                                        How does Paylio protect your money?
+                                    </button>
+                                </h6>
+                                <div id="collapseLeftFive" class="accordion-collapse collapse"
+                                    aria-labelledby="headingLeftFive" data-bs-parent="#accordionLeft">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionRight">
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingRightOne">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseRightOne"
+                                        aria-expanded="false" aria-controls="collapseRightOne">
+                                        Are money transfer apps safe?
+                                    </button>
+                                </h6>
+                                <div id="collapseRightOne" class="accordion-collapse collapse"
+                                    aria-labelledby="headingRightOne" data-bs-parent="#accordionRight">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingRightTwo">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseRightTwo"
+                                        aria-expanded="false" aria-controls="collapseRightTwo">
+                                        How much money can I send?
+                                    </button>
+                                </h6>
+                                <div id="collapseRightTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="headingRightTwo" data-bs-parent="#accordionRight">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingRightThree">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseRightThree"
+                                        aria-expanded="false" aria-controls="collapseRightThree">
+                                        Which currency can I send?
+                                    </button>
+                                </h6>
+                                <div id="collapseRightThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingRightThree" data-bs-parent="#accordionRight">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingRightFour">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseRightFour"
+                                        aria-expanded="false" aria-controls="collapseRightFour">
+                                        Cancel transaction
+                                    </button>
+                                </h6>
+                                <div id="collapseRightFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingRightFour" data-bs-parent="#accordionRight">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h6 class="accordion-header" id="headingRightFive">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseRightFive"
+                                        aria-expanded="false" aria-controls="collapseRightFive">
+                                        Can I send multiple payments?
+                                    </button>
+                                </h6>
+                                <div id="collapseRightFive" class="accordion-collapse collapse"
+                                    aria-labelledby="headingRightFive" data-bs-parent="#accordionRight">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     FAQs In end -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <hr><br>
+                    <div class="inner-connect">
+				<h5> Connect with us </h5>
+				<a href="#">Listening to what you have to say about our services matters to us.</a>
+			</div>
+                </div>
+            </div>
+            <div class="footer-area pt-120">
+                
+                <div class="footer-bottom">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-6 col-sm-8 d-flex justify-content-center justify-content-sm-start order-sm-0 order-1">
+                            <div class="copyright text-center text-sm-start">
+                                <p> Copyright © 2022 <a href="/">Carpe FCU</a> All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-4">
+                            <div class="menu-item">
+                                <ul class="footer-link d-flex justify-content-sm-end justify-content-center align-items-center">
+                                    <li><a href="#">Help & Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/plugin/slick.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/counter.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+	    function myFunctionz() {
+  var x = document.getElementById("pass");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+	</script>
+    <script>
+    $(document).ready(function() {
+  function dateTime() {
+    var ndate = new Date();
+    var hours = ndate.getHours();
+    var message = hours < 12 ? 'Good Morning' : hours < 18 ? 'Good Afternoon' : 'Good Evening';
+    $("h3.day-message").text(message);
+
+    $('.date').html(hours.leadingZeroes(2) + ":" + ndate.getMinutes().leadingZeroes(2) + ":" + ndate.getSeconds().leadingZeroes(2) + (hours < 12 ? 'AM' : 'PM'));
+  }
+
+  setInterval(dateTime, 1000);
+});
+
+Number.prototype.leadingZeroes = function(len) {
+  return (new Array(len).fill('0', 0).join('') + this).slice(-Math.abs(len));
+}
+</script>
+    <script src="//code.tidio.co/dertu8htn6gifhboixwlny2id8dmd1io.js" async></script>
+</body>
+
+</html>
